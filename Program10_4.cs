@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int i = 0;
+            int i = 0;//обьявление переменной типа int и присваивание значения "0"
             // Объявляем ступенчатый массив
             int[][] myArr = new int[4][];
             myArr[0] = new int[4];
