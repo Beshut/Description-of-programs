@@ -25,7 +25,7 @@ namespace ConsoleApplication1
         }
 
         // Метод, вычисляющий сумму выбранных сегментов
-        static int SumArraySegments(ArraySegment<int>[] value)//обьявление регулярной функции
+        static int SumArraySegments(ArraySegment<int>[] value)//обьявление рекурсивной функции
         {
             int sum = 0;//обьявление переменной типа int, присвоение значия "0"
             foreach (var s in value)//оператор перебора элементов массива
