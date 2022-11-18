@@ -12,7 +12,7 @@ namespace ConsoleApplication1
             Divide
         }
 
-        static void MathOp(double x, double y, Operation op)//обьявление регулярной функции 
+        static void MathOp(double x, double y, Operation op)//обьявление рекурсивной функции 
         {
             double result = 0.0;//обьявление переменной типа double и присвоение значения
 
