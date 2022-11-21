@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         {
             int[] myArr = { 1, 2, 3, 4 };//обьявление одномерного массива
 
-            for (int i = 0; i < myArr.Length; i++)////условный оператор, выполняется пока i < myArr.Length
+            for (int i = 0; i < myArr.Length; i++)//условный оператор, выполняется пока i < myArr.Length
                 Console.WriteLine(myArr[i]);//вывод на экран сообщения пользователю
 
             Console.ReadLine();//ожидание нажатия клавиши
